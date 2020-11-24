@@ -3,10 +3,10 @@
 void sort_tab(int* tab)
 
 {
-     std::cout << "<<<<        To Sort 10 integer values using Functions        >>>>" << std::endl;
+     std::cout << "<<<<        Sorting 10 integer values using functions        >>>>" << std::endl;
 
-     int Grt = tab[0];  // "Grt" for Greatest
-     int sml = tab[0];  // "Sml" for smallest
+     int Grt = tab[0];  // "Grt" short for Greatest
+     int sml = tab[0];  // "Sml" short for smallest
      int v = 10, index = 0;
      int sorted_tab[10] = { 0 };
      int p = -1;
