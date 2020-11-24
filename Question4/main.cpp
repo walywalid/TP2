@@ -5,10 +5,10 @@ void PascalTriangle(int size);
 
 int main()
 {
-    std::cout << "<<<<         PASCLA TRIANGLE        >>>>" << std::endl;
+    std::cout << "<<<<         PASCAL TRIANGLE        >>>>" << std::endl;
 
     int S;
-    std::cout << "Enter pascal triangle size : ";
+    std::cout << "Enter the size of the pascal triangle : ";
     std::cin>> S;
     PascalTriangle(S);
     return 0;
