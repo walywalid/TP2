@@ -2,7 +2,7 @@
 
 int main()
 {
-     std::cout << "<<<< Program to accept five integer values from keyword >>>>" << std::endl;
+     std::cout << "<<<< Program to accept five integer values >>>>" << std::endl;
 
     int ary[5];
     int * n = ary;
