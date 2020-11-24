@@ -2,7 +2,7 @@
 
 int main()
 {
-    std::cout << "<<<<     Program that will prompt the user to input ten integer values      >>>>" << std::endl;
+    std::cout << "<<<<     Program that will allow the user to input ten integer values      >>>>" << std::endl;
 
     int Sml, Grt, mov_index, mov_max;
     int ary[10] = {0};
@@ -51,13 +51,13 @@ int main()
 
     if (mov_max == 0)
     {
-        std::cout << " No Value occurs the most. All values occurs ones" << std::endl;
+        std::cout << " No Value occurs the most. All values occur once" << std::endl;
         std::cout << "Smallest value : " << Sml << "Greatest value :" << Grt << std::endl;
     }
 
     else
         std::cout << "Smallest value = " << Sml << std::endl;
         std::cout << "Greatest value = " << Grt << std::endl;
-        std::cout <<"Most occured values is = " << ary[mov_index] <<std::endl;
+        std::cout <<"Most occured value is = " << ary[mov_index] <<std::endl;
 
 }
