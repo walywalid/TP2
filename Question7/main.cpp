@@ -2,7 +2,7 @@
 
 int * sort_acend_tab(int* tab, int size)
 {
-     std::cout << "<<<< To sort an array of ten integer values in ascending order using Functions >>>>" << std::endl;
+     std::cout << "<<<< To sort an array of ten integer values in ascending order using different operations >>>>" << std::endl;
 
     int * x = tab;
     int * y = tab + 1;
